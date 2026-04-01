@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
 
 // The uri string must be the connection string for the database (obtained on Atlas).
-const user = "web_admin" /process.env.user;
+const user = "web_admin" //process.env.user;
 const paswd = "Access_2_MongoDB" //process.env.paswd;
 const uri = "mongodb+srv://" + user +":"+ paswd +"@cmps415-cluster.xhthdtt.mongodb.net/";
 
